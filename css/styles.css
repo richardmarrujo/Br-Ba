@@ -1,0 +1,72 @@
+
+body{
+  font-family: arial;
+  margin-top: 10px;
+}
+
+h2{
+  position: absolute;
+  font-size: 4.7em;
+  color: green;
+}
+
+span{
+  text-align: center;
+  color: white;
+}
+
+.object{
+  position: absolute;
+  top: 200px;
+  left: 450px;
+
+
+}
+.br{
+  margin-right: 10px;
+}
+
+.breaking{
+  position: absolute;
+  margin: 0;
+  z-index: 10;
+}
+
+.bad{
+  position: absolute;
+  top: 110px;
+  margin: 0 ;
+  margin-right: 0;
+  left: 102px;
+  z-index: 10
+}
+
+.acontainer{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  z-index: 1;
+}
+
+.bcontainer{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  top: 105px;
+  left: 100px;
+}
+
+.number{
+  font-size: 14px;
+  margin: 5px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  color: white;
+}
